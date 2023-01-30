@@ -19,13 +19,9 @@ int M = int.Parse(Console.ReadLine()!);
 Console.WriteLine(SunNumbers(M, N));
 // Method---------------------------------
 int SunNumbers(int M, int N)
-// {
-//     if(M == N) return M+N;
-//     if(M < N) return (N + M) * (N - M + 1)/2;
-//     return (M + N) * (M - N + 1)/2;
-// }
 {
     if(M == N) return M+N;
-    if(M < N) return (M + SunNumbers(N, M));
-    return (N + SunNumbers(M, N));
+    if(M < N) return (N + M) * (N - M + 1)/2;
+    return (M + N) * (M - N + 1)/2;
 }
+
