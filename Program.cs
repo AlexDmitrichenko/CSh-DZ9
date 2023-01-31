@@ -31,7 +31,7 @@
 // int m = int.Parse(Console.ReadLine()!);
 // Console.Write("Введите число n: ");
 // int n = int.Parse(Console.ReadLine()!);
-// Console.WriteLine(Function(m, n)); 
+// Console.WriteLine($"A(m,n) = {Function(m, n)}"); 
 // Method---------------------------------
 // int Function(int m, int n)
 // {
